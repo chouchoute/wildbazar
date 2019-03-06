@@ -1,0 +1,75 @@
+.third_banner{
+    position:relative;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.second_banner{
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.first_banner{
+    position:relative;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+.title-image{
+    font-size:40px;
+    font-family: Merriweather,Times,serif;
+    color:#222222;
+    margin-bottom: 5px;
+    background:rgba(188,190,173, .6);
+    position:absolute;
+    text-align: center;
+    
+    top:30% ;
+    width: 100%;
+    
+}
+
+.text{
+    border: 5px solid red;
+    
+    
+}
+
+
+.text-generality-product{
+    font-size:20px;
+    font-family: Roboto,Times,serif;
+    color:#222222;
+    background:rgba(188,190,173, .6);
+    position:absolute;
+    text-align: center;
+    
+    top:38% ;
+    width: 100%;
+}
+
+.scooter,.ebike,.hoverboard{
+    margin-bottom: 130px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+.text-generality-product{
+    background:rgba(188,190,173, .6);
+    width: 100%;
+    position:relative;
+    text-align: center;
+    font-size:15px;
+}
+.title-image{
+    background:rgba(188,190,173, .6);
+    width: 100%;
+    position:relative;
+    text-align: center;
+    font-size:20px;
+}
+.scooter,.ebike,.hoverboard{
+    margin-bottom: 20px;
+}
+}
